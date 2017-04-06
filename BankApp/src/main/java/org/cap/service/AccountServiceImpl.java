@@ -77,11 +77,13 @@ public class AccountServiceImpl implements AcccountService{
 	
 	@Override
 	public void myLoop() {
-		long sum=0;
-		for(long i=0;i<1000l;i++){
+		int sum=0;
+		for(int i=0;i<1000l;i++){
 			sum+=i;
 		}
+		System.out.println("Sum is........."+sum);
 	}
+	
 	
 	
 	
